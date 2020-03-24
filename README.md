@@ -2,11 +2,24 @@
 Link demo heroku : https://sandypracoyo-node-rest-test.herokuapp.com/
 
 ### Usage
-first, you must install all package
+Create .env file (example)
+
+```
+PORT=5000
+
+DATABASE_HOST = 127.0.0.1
+DATABASE_USER = root
+DATABASE_NAME = onlinestore
+```
+
+Install all package
+
 ```
 npm i
 ```
-run app
+
+Run app
+
 ```
 npm run dev
 ```
