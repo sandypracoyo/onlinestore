@@ -1,5 +1,8 @@
 # Onlinestore Simple Rest API
-Link demo heroku : https://sandypracoyo-node-rest-test.herokuapp.com/
+
+**Note : This Project isnt done yet**
+
+Link demo heroku : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 
 ### Usage
 Create .env file (example)
@@ -24,9 +27,9 @@ Run app
 npm run dev
 ```
 
-### CUSTOMER
-Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
+### REST SERVICE
 
+#### Customer
 | Method | Path | Params | Description |
 | ------ | ------ | ------ | ------ |
 | `POST` | /customer |  | Create new customer |
@@ -35,9 +38,7 @@ Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 | `GET` | /customer/:id | id | Get customer by id |
 | `GET` | /customer |  | Get all customer |
 
-### PRODUCT
-Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
-
+####  PRODUCT
 | Method | Path | Params | Description |
 | ------ | ------ | ------ | ------ |
 | `POST` | /product |  | Create new product |
@@ -46,9 +47,7 @@ Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 | `GET` | /product/:id | id | Get product by id |
 | `GET` | /product |  | Get all product |
 
-### DRIVER
-Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
-
+#### DRIVER
 | Method | Path | Params | Description |
 | ------ | ------ | ------ | ------ |
 | `POST` | /driver |  | Create new driver |
