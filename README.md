@@ -56,3 +56,4 @@ npm run dev
 | `GET` | /driver/:id | id | Get driver by id |
 | `GET` | /driver |  | Get all driver |
 
+Endpoint for order isn't done, still confused with sequelize relationship :(
