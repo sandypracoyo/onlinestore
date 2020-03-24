@@ -1,8 +1,18 @@
 # Onlinestore Simple Rest API
 Link demo heroku : https://sandypracoyo-node-rest-test.herokuapp.com/
 
-## CUSTOMER
-endpoint : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
+### Usage
+first, you must install all package
+```
+npm i
+```
+run app
+```
+npm run dev
+```
+
+### CUSTOMER
+Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 
 | Method | Path | Params | Description |
 | ------ | ------ | ------ | ------ |
@@ -12,8 +22,8 @@ endpoint : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 | `GET` | /customer/:id | id | Get customer by id |
 | `GET` | /customer |  | Get all customer |
 
-## PRODUCT
-endpoint : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
+### PRODUCT
+Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 
 | Method | Path | Params | Description |
 | ------ | ------ | ------ | ------ |
@@ -23,8 +33,8 @@ endpoint : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 | `GET` | /product/:id | id | Get product by id |
 | `GET` | /product |  | Get all product |
 
-## DRIVER
-endpoint : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
+### DRIVER
+Demo : https://sandypracoyo-node-rest-test.herokuapp.com/api/v1
 
 | Method | Path | Params | Description |
 | ------ | ------ | ------ | ------ |
